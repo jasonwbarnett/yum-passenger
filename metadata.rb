@@ -4,7 +4,7 @@ maintainer_email 'chef@mynameisjason.com'
 license          'MIT'
 description      'Installs/Configures yum-passenger'
 long_description 'Installs/Configures yum-passenger'
-version          '0.1.0'
+version          '0.1.1'
 
 depends 'yum', '~> 3.2'
 
