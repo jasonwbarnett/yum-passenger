@@ -1,6 +1,7 @@
 default['yum-passenger']['repositories'] = %w{passenger passenger-source}
 
 default['yum']['passenger']['repositoryid'] = 'passenger'
+default['yum']['passenger']['description'] = 'passenger'
 default['yum']['passenger']['baseurl'] = 'https://oss-binaries.phusionpassenger.com/yum/passenger/el/$releasever/$basearch'
 default['yum']['passenger']['repo_gpgcheck'] = true
 default['yum']['passenger']['gpgcheck'] = false
@@ -11,6 +12,7 @@ default['yum']['passenger']['sslcacert'] = '/etc/pki/tls/certs/ca-bundle.crt'
 default['yum']['passenger']['managed'] = true
 
 default['yum']['passenger-source']['repositoryid'] = 'passenger-source'
+default['yum']['passenger-source']['description'] = 'passenger-source'
 default['yum']['passenger-source']['baseurl'] = 'https://oss-binaries.phusionpassenger.com/yum/passenger/el/$releasever/SRPMS'
 default['yum']['passenger-source']['repo_gpgcheck'] = true
 default['yum']['passenger-source']['gpgcheck'] = false
