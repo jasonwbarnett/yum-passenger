@@ -1,10 +1,14 @@
-# yum-passenger-cookbook
+yum-passenger Cookbook
+======================
 
-TODO: Enter the cookbook description here.
+The yum-passenger cookbook takes over management of the default
+repositoryids shipped by [Phusion Passenger][1]. It allows attribute
+manipulation of `passenger`, and `passenger-source`.
 
-## Supported Platforms
-
-TODO: List your supported platforms.
+Requirements
+------------
+* Chef 11 or higher
+* yum cookbook version 3.0.0 or higher
 
 ## Attributes
 
@@ -40,3 +44,5 @@ Include `yum-passenger` in your node's `run_list`:
 ## License and Authors
 
 Author:: Jason Barnett (<J@sonBarnett.com>)
+
+[1]: https://www.phusionpassenger.com/install_redhat
