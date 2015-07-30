@@ -1,0 +1,7 @@
+name             'yum-passenger'
+maintainer       'Jason Barnett'
+maintainer_email 'J@sonBarnett.com'
+license          'MIT'
+description      'Installs/Configures yum-passenger'
+long_description 'Installs/Configures yum-passenger'
+version          '0.1.0'
