@@ -54,6 +54,7 @@ node['yum-passenger']['repositories'].each do |repo|
       proxy_password node['yum'][repo]['proxy_password']
       report_instanceid node['yum'][repo]['report_instanceid']
       repositoryid node['yum'][repo]['repositoryid']
+      repo_gpgcheck node['yum'][repo]['repo_gpgcheck']
       skip_if_unavailable node['yum'][repo]['skip_if_unavailable']
       source node['yum'][repo]['source']
       sslcacert node['yum'][repo]['sslcacert']
