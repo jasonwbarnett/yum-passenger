@@ -73,6 +73,6 @@ include_recipe 'yum-passenger'
 
 ## License and Authors
 
-Author:: Jason Barnett (<J@sonBarnett.com>)
+Author:: Jason Barnett (<chef@mynameisjason.com>)
 
 [1]: https://www.phusionpassenger.com/install_redhat

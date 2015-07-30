@@ -1,6 +1,6 @@
 name             'yum-passenger'
 maintainer       'Jason Barnett'
-maintainer_email 'J@sonBarnett.com'
+maintainer_email 'chef@mynameisjason.com'
 license          'MIT'
 description      'Installs/Configures yum-passenger'
 long_description 'Installs/Configures yum-passenger'
